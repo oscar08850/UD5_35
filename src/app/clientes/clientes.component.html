@@ -1,0 +1,17 @@
+<p>clientes works!</p>
+
+<table id="clientes">
+  <tr>
+    <th>Nombre</th>
+    <th>CIF</th>
+    <th>Direccion</th>
+    <th>Grupo</th>
+  </tr>
+
+  <tr *ngFor="let cliente of listClientes">
+    <td>{{cliente.nombre}}</td>
+    <td>{{cliente.cif}}</td>
+    <td>{{cliente.direccion}}</td>
+    <td>{{cliente.grupo}}</td>
+  </tr>
+</table>
